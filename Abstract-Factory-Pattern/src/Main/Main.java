@@ -12,8 +12,10 @@ public class Main {
         Computer SERVER = ComputerFactory.getComputer(new ServerFactory("32GB","50TB","i9"));
 
         System.out.println(PC);
-        System.out.println(SERVER);
+        System.out.println(PC.getClass());
 
+        System.out.println(SERVER);
+        System.out.println(SERVER.getClass());
 
     }
 }
